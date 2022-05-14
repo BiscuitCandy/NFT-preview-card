@@ -1,0 +1,124 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+
+.container {
+    width: 330px;
+    height: 565px;
+  }
+  
+  .card {
+    width: 280px;
+    height: 515px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    background: hsl(216, 50%, 16%);
+    border-radius: 4%;
+  }
+
+  .img {
+    position: relative;
+  }
+
+  .img > img {
+      height: 280px;
+      width: 280px;
+      border-radius: 2.5%;
+      display: block;
+      transition: 0.25 ease;
+  }
+
+  .img:hover {
+    opacity: 0.95;
+  }
+
+  .shade {
+    opacity: 0;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    transform: translate(0%, -100%);
+  }
+
+  .shade > img {
+    display: block;
+    margin: auto;
+  }
+
+
+  .shade:hover {
+    background:  hsla(178, 100%, 50%, 0.4);
+    opacity: 1;
+  }
+  
+  .details1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .details2 {
+      font-size: 17px;
+      font-weight: 300;
+      color: hsl(215, 51%, 70%);
+  }
+
+  .balance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+
+  }
+
+  .bal {
+    font-weight: 400;
+    color: cyan;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .days {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .creator {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 20px;
+      column-gap: 5px;
+  }
+
+  spam > img {
+      margin: 0px;
+      padding: 0px;
+  }
+
+  .avatar {
+      height: 30px;
+      width: 30px;
+      border: white solid 2px;
+      border-radius: 50%;
+      display: inline-block;
+  }
